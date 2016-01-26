@@ -1,4 +1,4 @@
-=  Windup 2.0 Maven Plugin
+=  Windup 2.x Maven Plugin
 
 == Overview
 
@@ -7,7 +7,7 @@ This `windup-maven-plugin` repository takes the implementation of the plugin, th
 
 == Prerequisites
 
-To run properly Windup relies on Maven version lower than 3.2.5, so we recommend to use version 3.2.3.
+We recommend to use Maven version 3.3.3 or higher.
 
 == Procedure to build the plugin 
     
@@ -31,9 +31,8 @@ mvn clean install
 
 == Procedure to use the plugin
 
-An example showing how to use the plugin can be found https://github.com/windup/windup-maven-plugin/blob/master/src/it/simple-it/pom.xml[here].
+An example showing how to use the plugin can be found https://github.com/windup/windup-quickstarts/blob/master/maven-plugin-usage/pom.xml[here].
 
-More examples will be provided as well the list of all atributes that can be used by the plugin.
-
-
+The Windup Maven Plugin configuration maps to the Windup execution options.
+For the list and explanation, see https://access.redhat.com/documentation/en/red-hat-jboss-migration-toolkit/version-2.4/windup-user-guide/#command-line-arguments[Windup command line arguments documentation].
 
